@@ -10,15 +10,15 @@ paired=1
 cold=0
 
 # number response per replication
-nIt=250
+nIt=500
 # number of replications (the same system is repeated nrep times)
-nrep=200
+nrep=20
 
 W=4
 mu_theta=0
 sd_theta=1/2 
 
-N=500 # sample size 
+N=1000 # sample size 
 
 # sample true values of the persons parameters from multivariate normal
 theta=qnorm(seq(1/(N+1),N/(N+1),by=1/(N+1)),mu_theta,sd_theta)
@@ -28,7 +28,7 @@ theta=c(theta,-1,-3/4,-1/2,-1/4,1/4,1/2,3/4,1)
 N=length(theta) # updated sample size after 8 more people were added
 new=c(501:N)
 
-K=100 # number of items
+K=200 # number of items
 
 # true item difficulties
 delta=qnorm(seq(1/(K+1),K/(K+1),length=K),0,1/W)*2
