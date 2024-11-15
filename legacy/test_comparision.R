@@ -12,7 +12,7 @@ cold=0
 # number response per replication
 nIt=500
 # number of replications (the same system is repeated nrep times)
-nrep=20
+nrep=100
 
 W=4
 mu_theta=0
@@ -47,7 +47,7 @@ k1=70
 k2=350
 
 # normal kernel for item selection is formulated based on probabilities, not logits
-M=0.5
+M=0.7
 SD=0.1
 Prob2=matrix(1,nrow=k1+1,ncol=k2+1)
 for(i in 0:(k1)){
@@ -421,7 +421,8 @@ lines(TMeans2[j,],col=2)
 lines(TMeans3[j,],col=3)
 abline(h=theta[new][j]*4)
 }
-
+legend("topright", legend=c("Urnings", "Multiple trackers", "Multiple updates"),
+       col=c("black", "green", "red"), lty=1:2, cex=0.8)
 
 
 k1=300
