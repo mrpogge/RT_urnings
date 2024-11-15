@@ -352,7 +352,6 @@ void urnings_simpleX_HT(int*adaptive,int*paired,int*u,int*v,double*theta,double*
   PutRNGstate();
 }  
 
-
 void urnings_RT(int*adaptive,int*paired,int*rule,int*u,int*v,double*theta,double*delta,int*N,int*K,int*Rep,int*U,int*V,double*cumsum,int*x,int*y,int*k1,int*k2,double*P,int*queue,int*LL,int*LLsum,int*Score,int*n_options,int*Upd,int*n_scores,double*Q,int*n_upd,int*N_obs1,int*Obs1,int*Exp1,int*N_obs2,int*Obs2,int*Exp2,int*N_obs3,int*Obs3,int*Exp3,int*N_obs4,int*Obs4,int*Exp4,int*N_obs5,int*Obs5,int*Exp5,int*N_obs6,int*Obs6,int*Exp6,int*N_obs7,int*Obs7,int*Exp7,int*N_obs8,int*Obs8,int*Exp8,int*N_obs9,int*Obs9,int*Exp9,int*W){
  double L=0;
  double p=0;
@@ -603,7 +602,6 @@ void urnings_RT(int*adaptive,int*paired,int*rule,int*u,int*v,double*theta,double
   }
   PutRNGstate();
 }  
-
 
 void urnings_simpleX(int*adaptive,int*paired,int*u,int*v,double*theta,double*delta,int*N,int*K,int*Rep,int*U,int*V,int*k1,int*k2,double*P,double*cumsum,int*W,int*Score,int*n_scores,int*n_options,int*Upd,int*queue,int*LL,int*LLsum){
  double L=0;
@@ -1147,7 +1145,6 @@ void urnings_simple(int*adaptive,int*paired,int*u,int*v,double*theta,double*delt
   PutRNGstate();
 }  
 
-
 void urnings_separate_RT(int*adaptive,int*paired,int*u,int*v,int*u2,int*v2,double*theta,double*delta,int*N,int*K,int*Rep,int*U,int*V,int*U2,int*V2,int*k1,int*k12,int*k2,int*k22,double*P,double*cumsum,int*W,int*Score,int*n_scores,int*n_options,int*Upd,int*queue,int*LL,int*LLsum,int*Score2,int*n_scores2,int*n_options2,int*Upd2,int*queue2,int*LL2,int*LLsum2){
  double L=0;
  double p=0;
@@ -1403,7 +1400,6 @@ void urnings_separate_RT(int*adaptive,int*paired,int*u,int*v,int*u2,int*v2,doubl
   }
   PutRNGstate();
 }  
-
 
 void urnings_separate_RT2_real_data(int*nresp,int*P,int*I,int*K,int*X1,int*X2,int*Y1,int*Y2,int*n_obs_p,int*n_obs_i,int*u,int*v,int*u2,int*v2,int*Ubefore,int*Vbefore,int*U2before,int*V2before,int*Uafter,int*Vafter,int*Vafter2,int*U2after,int*V2after,int*V2after2,int*k1,int*k12,int*k2,int*k22,double*cumsum,int*Score,int*n_scores,int*n_options,int*Upd,int*queue,int*LL,int*LLsum,int*Score2,int*n_scores2,int*n_options2,int*Upd2,int*queue2,int*LL2,int*LLsum2,int*N_obs_p,int*N_obs_i){
  double L=0;
@@ -1734,7 +1730,6 @@ Vafter2[r]=v[j];
   PutRNGstate();
   
   }  
-
 
 void urnings_separate_RT2(int*adaptive,int*paired,int*u,int*v,int*u2,int*v2,int*u3,int*v3,double*theta,double*delta,int*N,int*K,int*Rep,int*U,int*V,int*U2,int*V2,int*U3,int*V3,int*k1,int*k12,int*k13,int*k2,int*k22,int*k23,double*P,double*cumsum,int*W,int*Score,int*n_scores,int*n_options,int*Upd,int*queue,int*LL,int*LLsum,int*Score2,int*n_scores2,int*n_options2,int*Upd2,int*queue2,int*LL2,int*LLsum2,int*Score3,int*n_scores3,int*n_options3,int*Upd3,int*queue3,int*LL3,int*LLsum3){
  double L=0;
@@ -2100,7 +2095,6 @@ void urnings_separate_RT2(int*adaptive,int*paired,int*u,int*v,int*u2,int*v2,int*
   }
   PutRNGstate();
 }  
-
 
 void urnings_simple_RT(int*adaptive,int*paired,int*u,int*v,double*theta,double*delta,int*N,int*K,int*Rep,int*U,int*V,int*k1,int*k2,double*P,double*cumsum,int*W,int*Score,int*n_scores,int*n_options,int*Upd,int*queue,int*LL,int*LLsum,int*rule){
  double L=0;
